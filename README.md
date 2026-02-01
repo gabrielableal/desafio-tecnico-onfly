@@ -124,9 +124,3 @@ npm run test:report
 ```
 
 > **Nota:** O relatório é gerado automaticamente conforme configurado no `cucumber.js`
-│
-├── cucumber.js                                     //configuração do cucumber
-├── package.json
-├── package-lock.json
-├── playwright.config.js                            //configuração do Playwright
-└── README.md
