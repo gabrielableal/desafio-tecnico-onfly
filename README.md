@@ -124,42 +124,6 @@ npm run test:report
 ```
 
 > **Nota:** O relatório é gerado automaticamente conforme configurado no `cucumber.js`
-
-**Estrutura do Projeto**
-
-PROJETO
-│
-├── node_modules/
-│
-├── postman/                                        //Testes de API
-│   └── gorest_collection.json
-│
-├── reports/
-│   ├── screenshots_file/                           //Evidências
-│   │   ├── screenshots_cucumber/
-│   │   ├── screenshots_playwright/
-│   │   ├── screenshots_postman/
-│   │   └── videos_playwright/
-│   │
-│   ├── cucumber-report.html
-│   ├── html/
-│   └── screenshots/
-│
-├── tests/                                          //Testes E2E
-│   ├── features/                                   //Cenários escritos em Gherkin
-│   │   └── fluxo_compra_saucedemo.feature
-│   │
-│   ├── pages/                                      //Page Object Model
-│   │   ├── cart.page.js
-│   │   ├── checkout.page.js
-│   │   ├── login.page.js
-│   │   └── products.page.js
-│   │
-│   ├── steps/                                      //steps do cucumber
-│   │   └── fluxoCompra.steps.js
-│   │
-│   └── supports/                                   //suporte e configuração do cucumber
-│       └── world.js
 │
 ├── cucumber.js                                     //configuração do cucumber
 ├── package.json
