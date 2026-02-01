@@ -1,0 +1,16 @@
+{
+  "name": "qa-playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "Desafio técnico QA Onfly - Automação com Playwright e Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --config cucumber.js",
+    "playwright:install": "playwright install"
+  },
+  "author": "Gabriela Maranhão",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@playwright/test": "^1.41.0"
+  }
+}
